@@ -30,9 +30,9 @@ const spaceMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Kaminari",
+  title: "Ingenierías Lentas",
   generator: "Next.js",
-  applicationName: "Kaminari",
+  applicationName: "Ingenierías Lentas",
   referrer: "origin-when-cross-origin",
   keywords: [
     "Next.js",
@@ -42,32 +42,32 @@ export const metadata: Metadata = {
     "Template",
     "shadcn-ui",
   ],
-  authors: [{ name: "Virgil", url: "https://obedd.vercel.app" }],
-  creator: "Virgil",
-  publisher: "Virgil",
+  authors: [{ name: "Eric Solomon", url: "https://errcsool.com" }],
+  creator: "Eric Solomon",
+  publisher: "Eric Solomon",
   alternates: {},
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://kaminari.vercel.app"),
+  metadataBase: new URL("https://ingenieriaslentas.com"),
   openGraph: {
-    title: "Kaminari",
-    description: "Next.js, TailwindCSS and shadcn-ui Starter Template",
-    url: "https://kaminari.vercel.app",
-    siteName: "Kaminari",
+    title: "Ingenierías Lentas",
+    description: "Website for Ingenierías Lentas group",
+    url: "https://ingenieriaslentas.com",
+    siteName: "Ingenierías Lentas",
     images: [
       {
-        url: "https://kaminari.vercel.app/og.png",
+        url: "https://ingenieriaslentas.com/og.png",
         width: 800,
         height: 600,
       },
       {
-        url: "https://kaminari.vercel.app/og-dark.png",
+        url: "https://ingenieriaslentas.com/og-dark.png",
         width: 1800,
         height: 1600,
-        alt: "Next.js, TailwindCSS and shadcn-ui Starter Template",
+        alt: "Website for Ingenierías Lentas group",
       },
     ],
     locale: "en-US",

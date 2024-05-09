@@ -4,7 +4,7 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import boyAndGirl from "@/public/images/boy-and-girl.png";
+import leafbug3 from "@/public/images/leafbug3.webp";
 
 export default function Home() {
   return (
@@ -18,24 +18,8 @@ export default function Home() {
               03
             </span>
             <p className="pb-6 font-medium">
-              The computer mouse was invented by Douglas Engelbart in 1964. He
-              demonstrated the mouse along with many other groundbreaking
-              technologies in a famous presentation known as &apos;The Mother of
-              All Demos&apos;
+              TBD
             </p>
-
-            <div className="">
-              <Button size="xl" className="w-full font-bold" variant="brand">
-                <a
-                  href="https://github.com/lucky-chap/kaminari"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="pb-1 dark:text-zinc-800 text-zinc-100"
-                >
-                  Repo
-                </a>{" "}
-              </Button>
-            </div>
           </div>
         </Wrapper>
       </section>
@@ -43,7 +27,7 @@ export default function Home() {
       {/* second half */}
 
       <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#ffefd6] p-9">
-        <Image src={boyAndGirl} alt="Boy and girl playing with robot" />
+        <Image src={leafbug3} alt="Boy and girl playing with robot" />
       </section>
     </section>
   );

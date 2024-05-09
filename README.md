@@ -7,7 +7,6 @@
   </a>
 </p>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flucky-chap%2Fkaminari&demo-title=Kaminari&demo-description=Next.js%2C%20TailwindCSS%20and%20shadcn-ui%20Starter%20Template&demo-url=https%3A%2F%2Fkaminari.vercel.app&demo-image=https%3A%2F%2Fkaminari.vercel.app%2Fog.png)
 
 ## Features 💅
 

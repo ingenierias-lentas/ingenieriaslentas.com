@@ -18,7 +18,7 @@ export default function Home() {
               03
             </span>
             <p className="pb-6 font-medium">
-              The{" "}
+              {" "}
               <a
                 href="https://github.com/ingenierias-lentas/candid"
                 target="_blank"

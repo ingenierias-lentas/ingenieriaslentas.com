@@ -20,8 +20,8 @@ export default function Home() {
             <p className="pb-6 font-medium">
               The main focus of the Ingenierías Lentas group
               in the initial stages is to facilitate responsible technology usage and
-              create sustainable patterns for business development via projects involved
-              with distributed computing, economics, ecology, and art
+              create sustainable revenue generation and resource provisioning patterns
+              collaborative projects using modern techniques of computing and economics
             </p>
 
           </div>

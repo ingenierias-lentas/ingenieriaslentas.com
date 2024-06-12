@@ -18,7 +18,18 @@ export default function Home() {
               03
             </span>
             <p className="pb-6 font-medium">
-              TBD
+              The{" "}
+              <a
+                href="https://github.com/ingenierias-lentas/candid"
+                target="_blank"
+                rel="noreferrer"
+                className="pb-1 text-zinc-800 dark:text-zinc-100 underline font-medium"
+              >
+                Candid
+              </a>{" "}
+              is a project aimed at better aligning job providers and job seekers
+              via candid feedback data generated from Application Tracking Systems and other
+              candidate application evaluation systems
             </p>
           </div>
         </Wrapper>

@@ -8,7 +8,7 @@ async function fetchBlogPosts() {
   const parser = new Parser();
   try {
     const feed = await parser.parseURL("https://medium.com/feed/@ingenierias_lentas");
-    const posts = feed.items.map((item) => ({
+    const posts = feed.items.map((item: any) => ({
       title: item.title,
       description: item.contentSnippet,
       slug: item.link.split("/").pop(),
@@ -39,7 +39,7 @@ export default async function BlogPage() {
           </div>
         ) : (
           <div className="space-y-8">
-            {blogPosts.map((post) => (
+            {blogPosts.map((post: any) => (
               <div
                 key={post.slug}
                 className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg flex items-center"
